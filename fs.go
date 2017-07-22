@@ -1,12 +1,12 @@
-package http
+package gomod
 
 import (
 	"errors"
-	"path/filepath"
-	"strings"
+	"net/http"
 	"os"
 	"path"
-	"net/http"
+	"path/filepath"
+	"strings"
 )
 
 // A DirD implements FileSystem using the native file system restricted to a
