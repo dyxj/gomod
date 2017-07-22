@@ -1,0 +1,2 @@
+# gomod
+Go library
